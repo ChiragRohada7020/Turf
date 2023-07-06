@@ -3,8 +3,8 @@ import { useLocation } from "react-router-dom";
 
 const Login = () => {
   const [accessToken, setAccessToken] = useState("");
-  const location = useLocation();
-  const { myState, setMyState } = location.state;
+  // const location = useLocation();
+  // const { myState } = location.state || {};
 
   const [formData, setFormData] = useState({
     name: "",
@@ -13,7 +13,7 @@ const Login = () => {
 
   const handleChange = (event) => {
     const { name, value } = event.target;
-    console.log(myState);
+    // console.log(myState);
     setFormData((prevData) => ({
       ...prevData,
       [name]: value,
@@ -37,7 +37,7 @@ const Login = () => {
       // Set the access token in component state
       setAccessToken(access_token);
 
-      console.log(myState);
+      // console.log(myState);
     } catch (error) {
       console.log("Error logging in:", error);
     }
