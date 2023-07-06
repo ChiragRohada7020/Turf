@@ -14,9 +14,7 @@ const Navbar = () => {
             Logout
           </Link>
         ) : (
-          <Link to="/login" state={{ myState, setMyState }}>
-            Login
-          </Link>
+          <Link to="/login">Login</Link>
         )}
       </ul>
 
