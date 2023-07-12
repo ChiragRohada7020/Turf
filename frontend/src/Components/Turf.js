@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
+import { Outlet, Link } from "react-router-dom";
 
 const Turf = () => {
   const { id } = useParams();
@@ -23,12 +24,15 @@ const Turf = () => {
 
   return (
     <div>
-      I am available because you are logined{" "}
       {data.map((item) => (
         <>
           <br></br>
           {item.Name}
           {item.Location}
+          <Link to={`/book/${item.id}`}>
+            <button>Book</button>
+          </Link>
+
           <br></br>
         </>
       ))}
