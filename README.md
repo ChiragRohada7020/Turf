@@ -5,16 +5,16 @@ Turf Bookings Online is a web application that revolutionizes the way people boo
 
 ## Features
 
--Comprehensive Turf Directory
--Easy Booking Process
--User Profiles
--Secure Payments
--Reviews and Ratings
--Notifications and Reminders
--Admin Dashboard
--Mobile-Friendly Design
--Advanced Search Filters
--Multi-language Support
+- Comprehensive Turf Directory
+- Easy Booking Process
+- User Profiles
+- Secure Payments
+- Reviews and Ratings
+- Notifications and Reminders
+- Admin Dashboard
+- Mobile-Friendly Design
+- Advanced Search Filters
+- Multi-language Support
 
 
 
