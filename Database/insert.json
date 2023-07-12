@@ -1,0 +1,18 @@
+[
+  {
+    "name": "Turf A",
+    "region": "Region X",
+    "slots": [
+      { "slotId": "abc123", "time": "9:00 AM - 10:00 AM", "booked": false },
+      { "slotId": "def456", "time": "10:00 AM - 11:00 AM", "booked": true }
+    ]
+  },
+  {
+    "name": "Turf B",
+    "region": "Region Y",
+    "slots": [
+      { "slotId": "ghi789", "time": "1:00 PM - 2:00 PM", "booked": false },
+      { "slotId": "jkl012", "time": "2:00 PM - 3:00 PM", "booked": false }
+    ]
+  }
+]
