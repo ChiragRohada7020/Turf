@@ -5,7 +5,9 @@ import Navbar from "./Components/Navbar";
 import Login from "./Components/UserDashboard/LoginUser";
 import RegisterUser from "./Components/UserDashboard/RegisterUser";
 
-import Initial from "./Components/Initial";
+import Initial from "./Components/Home/Initial";
+import SelectCity from "./Components/Home/SelectCity";
+
 import City from "./Components/City";
 import Turf from "./Components/Turf";
 import Cs from "./Components/Cs";
@@ -31,6 +33,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Navbar isLoggedIn={isLoggedIn} />}>
             <Route index element={<Initial />} />
+            <Route path="city" element={<SelectCity />} />
             <Route path="login" element={<Login handleLogin={handleLogin} />} />
             <Route
               path="logout"

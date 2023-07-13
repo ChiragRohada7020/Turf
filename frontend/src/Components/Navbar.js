@@ -6,11 +6,11 @@ const Navbar = ({ isLoggedIn }) => {
 
   return (
     <div>
-      <nav class="bg-white border-gray-200 dark:bg-gray-900">
+      <nav class="bg-white border-gray-200 dark:bg-black">
         <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-          <a href="https://flowbite.com/" class="flex items-center">
+          <a href="/" class="flex items-center">
             <img
-              src="https://flowbite.com/docs/images/logo.svg"
+              src="https://assets-global.website-files.com/60d9fbbfcd9fcb40bad8aac3/62b640bd2f00915ef3ef353e_user%20interviews%20logo.png"
               class="h-8 mr-3"
               alt="Flowbite Logo"
             />
@@ -43,7 +43,7 @@ const Navbar = ({ isLoggedIn }) => {
             </svg>
           </button>
           <div class="hidden w-full md:block md:w-auto" id="navbar-default">
-            <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+            <ul class="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-black md:dark:bg-black dark:border-gray-700">
               <li>
                 <a
                   href="#"
